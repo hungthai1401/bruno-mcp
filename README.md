@@ -41,8 +41,8 @@ Add the server to your Claude desktop configuration file at `~/Library/Applicati
 {
   "mcpServers": {
     "bruno-runner": {
-      "command": "node",
-      "args": ["/absolute/path/to/bruno-mcp/build/index.js"]
+      "command": "npx",
+      "args": ["-y", "bruno-mcp"],
     }
   }
 }
