@@ -1,0 +1,36 @@
+{
+  "name": "bruno-mcp",
+  "version": "0.1.0",
+  "description": "MCP Server for running Bruno Collections",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "bruno-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "clean": "rm -rf build",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "bruno",
+    "mcp",
+    "api-testing",
+    "claude"
+  ],
+  "author": "Thai Nguyen Hung",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@usebruno/cli": "^1.40.0",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.24.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3"
+  }
+}
