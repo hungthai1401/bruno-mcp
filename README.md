@@ -15,7 +15,19 @@ An MCP (Model Context Protocol) server that enables running Bruno collections. T
 
 ## Installation
 
+### Prerequisites
+
+- Node.js >= 16
+- npm >= 8
+- [Bruno CLI](https://www.usebruno.com/) installed globally
+
+### Steps
+
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/bruno-mcp.git
+cd bruno-mcp
+
 # Install dependencies
 npm install
 
@@ -92,24 +104,22 @@ src/
   └── types.ts           # Type definitions
 ```
 
-### Running Tests
+### TODO
 
-```bash
-# Run tests
-npm test
-
-# Run tests with coverage
-npm test:coverage
-```
+- [ ] Implement unit tests
+  - Test runner functionality
+  - Test server implementation
+  - Test CLI integration
+  - Add test coverage reporting
 
 ### Building
 
 ```bash
-# Build the project
-npm run build
-
 # Clean build artifacts
 npm run clean
+
+# Build the project
+npm run build
 ```
 
 ## License
