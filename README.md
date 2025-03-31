@@ -1,4 +1,5 @@
 # Bruno MCP Server
+[![smithery badge](https://smithery.ai/badge/@hungthai1401/bruno-mcp)](https://smithery.ai/server/@hungthai1401/bruno-mcp)
 
 An MCP (Model Context Protocol) server that enables running Bruno collections. This server allows LLMs to execute API tests using Bruno and get detailed results through a standardized interface.
 
@@ -15,19 +16,16 @@ An MCP (Model Context Protocol) server that enables running Bruno collections. T
 
 ## Installation
 
-### Prerequisites
+### Installing via Smithery
 
-- Node.js >= 16
-- npm >= 8
-- [Bruno CLI](https://www.usebruno.com/) installed globally
-
-### Steps
+To install Bruno MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@hungthai1401/bruno-mcp):
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/bruno-mcp.git
-cd bruno-mcp
+npx -y @smithery/cli install @hungthai1401/bruno-mcp --client claude
+```
 
+### Manual Installation
+```bash
 # Install dependencies
 npm install
 
@@ -104,22 +102,24 @@ src/
   └── types.ts           # Type definitions
 ```
 
-### TODO
+### Running Tests
 
-- [ ] Implement unit tests
-  - Test runner functionality
-  - Test server implementation
-  - Test CLI integration
-  - Add test coverage reporting
+```bash
+# Run tests
+npm test
+
+# Run tests with coverage
+npm test:coverage
+```
 
 ### Building
 
 ```bash
-# Clean build artifacts
-npm run clean
-
 # Build the project
 npm run build
+
+# Clean build artifacts
+npm run clean
 ```
 
 ## License
