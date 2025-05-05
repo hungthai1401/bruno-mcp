@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hungthai1401-bruno-mcp-badge.png)](https://mseep.ai/app/hungthai1401-bruno-mcp)
+
 # Bruno MCP Server
 [![smithery badge](https://smithery.ai/badge/@hungthai1401/bruno-mcp)](https://smithery.ai/server/@hungthai1401/bruno-mcp)
 
