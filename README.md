@@ -1,6 +1,10 @@
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hungthai1401-bruno-mcp-badge.png)](https://mseep.ai/app/hungthai1401-bruno-mcp)
 
 # Bruno MCP Server
+<a href="https://glama.ai/mcp/servers/@hungthai1401/bruno-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@hungthai1401/bruno-mcp/badge" alt="Bruno MCP server" />
+</a>
+
 [![smithery badge](https://smithery.ai/badge/@hungthai1401/bruno-mcp)](https://smithery.ai/server/@hungthai1401/bruno-mcp)
 
 An MCP (Model Context Protocol) server that enables running Bruno collections. This server allows LLMs to execute API tests using Bruno and get detailed results through a standardized interface.
