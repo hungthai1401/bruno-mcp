@@ -21,6 +21,10 @@ An MCP (Model Context Protocol) server that enables running Bruno collections. T
   * Detailed failure information
   * Execution timings
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/hungthai1401-bruno-mcp).
+
 ## Installation
 
 ### Installing via Smithery
